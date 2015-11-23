@@ -14,4 +14,3 @@ class dangnhap(models.Model):
     	cursor.execute("SELECT * FROM bookmarks_dangnhap")
     	result=cursor.fetchall()
     	return result 	
-# Uncomment the next two lines to enable the admin:
